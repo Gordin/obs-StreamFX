@@ -18,6 +18,7 @@
 # CMake Setup
 cmake_minimum_required(VERSION 3.13...4.0)
 
+set(CMAKE_COMPILE_WARNING_AS_ERROR OFF)
 if(${CMAKE_VERSION} VERSION_LESS 3.19)
 	set(LOGPREFIX "[StreamFX] ")
 else()
