@@ -2,7 +2,7 @@
 # StreamFX 
 StreamFX is a plugin to libOBS (OBS Studio, StreamElements OBS Live) that adds new sources, filters and transitions to give you the ability to drastically improve your stream and recording setup past what was possible in OBS Studio until now. Whether it is blurring out a region, moving something in 3D, or just writing your own shaders as a new transition, source or filter - StreamFX has it all.
 
-[![CI](https://github.com/Xaymar/obs-StreamFX/workflows/CI/badge.svg)](https://github.com/Xaymar/obs-StreamFX/actions) [![Crowdin](https://badges.crowdin.net/obs-stream-effects/localized.svg)](https://crowdin.com/project/obs-stream-effects)
+[![CI](https://github.com/Gordin/obs-StreamFX/workflows/CI/badge.svg)](https://github.com/Xaymar/obs-StreamFX/actions) [![Crowdin](https://badges.crowdin.net/obs-stream-effects/localized.svg)](https://crowdin.com/project/obs-stream-effects)
 
 ## Support the StreamFX project!
 Like any other free project, StreamFX relies on donations to be continuously developed and stay free. If StreamFX helped you, consider helping the StreamFX project by making a one time donation via [PayPal](https://www.paypal.me/xaymar), or a continuous donation via [Patreon](https://www.patreon.com/Xaymar) or [Github Sponsors](https://github.com/sponsors/Xaymar)!
