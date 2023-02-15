@@ -1715,7 +1715,7 @@ if(D_PLATFORM_WINDOWS AND ((CMAKE_CXX_COMPILER_ID STREQUAL "MSVC") OR (CMAKE_CXX
 	)
 
 	# - Treat Warnings as Errors
-	target_compile_options(${PROJECT_NAME} PRIVATE "/Wall")
+	#target_compile_options(${PROJECT_NAME} PRIVATE "/Wall")
 
 	# - Disable useless warnings
 	set(DISABLED_WARNINGS
@@ -1818,8 +1818,8 @@ elseif(D_PLATFORM_LINUX AND ((CMAKE_CXX_COMPILER_ID STREQUAL "Clang") OR (CMAKE_
 	message(STATUS "${LOGPREFIX}Applying custom flags for GCC/Clang style build.")
 
 	# - Enable all warnings.
-	target_compile_options(${PROJECT_NAME} PRIVATE "-Wall")
-	target_compile_options(${PROJECT_NAME} PRIVATE "-Wextra")
+	#target_compile_options(${PROJECT_NAME} PRIVATE "-Wall")
+	#target_compile_options(${PROJECT_NAME} PRIVATE "-Wextra")
 
 	# - Disable useless warnings
 	set(DISABLED_WARNINGS
@@ -1925,8 +1925,8 @@ elseif(D_PLATFORM_MAC AND (CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang"))
 	message(STATUS "${LOGPREFIX}Applying custom flags for AppleClang style build.")
 
 	# - Enable most useful warnings.
-	target_compile_options(${PROJECT_NAME} PRIVATE "-Wall")
-	target_compile_options(${PROJECT_NAME} PRIVATE "-Wextra")
+	#target_compile_options(${PROJECT_NAME} PRIVATE "-Wall")
+	#target_compile_options(${PROJECT_NAME} PRIVATE "-Wextra")
 
 	# - Require enabled instruction sets.
 	if(${PREFIX}TARGET_NATIVE)

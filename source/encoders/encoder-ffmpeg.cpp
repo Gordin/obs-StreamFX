@@ -151,8 +151,8 @@ ffmpeg_instance::ffmpeg_instance(obs_data_t* settings, obs_encoder_t* self, bool
 		_framerate_divisor = obs_data_get_int(settings, ST_KEY_FFMPEG_FRAMERATE);
 
 		_context->ticks_per_frame = 1;
-		_context->time_base.num *= _framerate_divisor;
-		_context->framerate.den *= _framerate_divisor;
+		_context->time_base.num *= (int)_framerate_divisor;
+		_context->framerate.den *= (int)_framerate_divisor;
 	}
 
 	// Update settings
